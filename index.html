@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dragon Ball Universe</title>
+  <link href="styles.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-white font-sans">
+
+  <header class="text-center p-6 bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 shadow-lg">
+    <h1 class="text-4xl font-bold">🌟 Dragon Ball Universe</h1>
+    <p class="text-sm mt-2">Explora personajes épicos del universo Dragon Ball</p>
+    <input id="searchInput" type="text" placeholder="Buscar personaje..." class="mt-4 p-2 rounded-lg text-black w-64 focus:outline-none shadow-lg">
+  </header>
+
+  <main id="characters" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+    <!-- Cards insertadas dinámicamente -->
+  </main>
+
+  <footer class="text-center text-gray-400 p-4">
+    Hecho con 💥 por ChatGPT | API: <a href="https://dragonball-api.com/" class="underline hover:text-white">dragonball-api.com</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
